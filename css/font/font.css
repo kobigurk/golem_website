@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Geomanist Extra Light';
+    src: url('geomanist-extralight-webfont.eot');
+    src: url('geomanist-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('geomanist-extralight-webfont.woff2') format('woff2'),
+         url('geomanist-extralight-webfont.woff') format('woff'),
+         url('geomanist-extralight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geomanist Light';
+    src: url('geomanist-light-webfont.eot');
+    src: url('geomanist-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('geomanist-light-webfont.woff2') format('woff2'),
+         url('geomanist-light-webfont.woff') format('woff'),
+         url('geomanist-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geomanist Regular';
+    src: url('geomanist-regular-webfont.eot');
+    src: url('geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('geomanist-regular-webfont.woff2') format('woff2'),
+         url('geomanist-regular-webfont.woff') format('woff'),
+         url('geomanist-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,26 @@
+{
+  "name": "animacja",
+  "version": "0.0.0",
+  "authors": [
+    "Adam Szajuk <adam.szajuk@thecodeine.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3",
+    "jquery": "~2.1.4",
+    "TweenJS": "~0.6.1",
+    "EaselJS": "~0.8.1"
+  }
+}

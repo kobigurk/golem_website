@@ -1,0 +1,652 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html, body, canvas {
+  height: 100% !important;
+  width: 100% !important;
+  display: block;
+}
+
+body {
+  font-family: "Geomanist Extra Light", Helvetica, Arial, Sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.container .wraper {
+  position: relative;
+  width: 100%;
+  padding: 0 20px;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper {
+    min-height: 100%;
+  }
+  .container .wraper.with-web nav {
+    top: 230px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container .wraper {
+    padding: 0 40px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .container .wraper.with-web nav {
+    top: 280px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .container .wraper.with-web nav {
+    top: 480px;
+  }
+}
+.container .wraper:first-child {
+  padding-top: 20px;
+  padding-bottom: 0;
+  height: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .container .wraper:first-child {
+    padding-top: 40px;
+  }
+}
+.container .wraper:first-child .page {
+  border-top: 1px solid #b66f6f;
+  padding: 0 !important;
+}
+.container .wraper:first-child .page .title {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 480px) {
+  .container .wraper:first-child .page .title img {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .container .wraper:first-child .page .title {
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    filter: blur(0);
+    width: 925px;
+    text-align: left;
+  }
+  .container .wraper:first-child .page .title img, .container .wraper:first-child .page .title .text {
+    float: left;
+  }
+}
+.container .wraper:first-child .page .title .text {
+  color: #fff;
+  text-transform: uppercase;
+  font: 59px 'Geomanist Extra Light';
+  letter-spacing: 0.2em;
+  padding-left: 50px;
+  display: none;
+}
+@media screen and (min-width: 1120px) {
+  .container .wraper:first-child .page .title .text {
+    display: block;
+  }
+}
+.container .wraper:first-child .page .explore {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  color: #b66f6f;
+  text-decoration: none;
+  font: 10px 'Geomanist Light';
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1120px) {
+  .container .wraper:first-child .page .explore {
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    filter: blur(0);
+    width: 925px;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 480px) {
+  .container .wraper:first-child .page .explore {
+    font-size: 18px;
+  }
+}
+.container .wraper:first-child .page .explore img, .container .wraper:first-child .page .explore span {
+  float: left;
+  display: block;
+}
+.container .wraper:first-child .page .explore span {
+  padding: 10px 0 0 46px;
+}
+.container .wraper:first-child .page .explore:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background-image: url("../img/explore.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 26px;
+  height: 42px;
+}
+.container .wraper:first-child .page .explore:hover {
+  color: #757c97;
+}
+.container .wraper:first-child .page .explore:hover:before {
+  background-position: -26px 0;
+}
+.container .wraper:last-child {
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .container .wraper:last-child {
+    padding-bottom: 40px;
+  }
+}
+.container .wraper:last-child .page {
+  border-bottom: 1px solid #b66f6f;
+  padding-bottom: 80px;
+}
+.container .wraper.dark {
+  background: #1c1f2b;
+}
+.container .wraper.white {
+  background: white;
+}
+.container .wraper.grey {
+  background: #f3f4f4;
+}
+.container .wraper.font-dark h1, .container .wraper.font-dark p, .container .wraper.font-dark header {
+  color: black !important;
+}
+.container .wraper.font-dark header span {
+  background: black !important;
+}
+.container .wraper nav {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 100%;
+  background: #b66f6f;
+  display: none;
+  padding: 20px;
+  z-index: 200;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper nav {
+    padding: 50px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .container .wraper nav {
+    padding: 0 100px;
+    top: 80px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  .container .wraper nav {
+    padding: 0 200px;
+  }
+}
+.container .wraper nav ul {
+  margin: 0;
+  padding: 20px 0;
+}
+.container .wraper nav ul li {
+  list-style: none;
+  color: white;
+  font: 16px "Geomanist Regular";
+  text-transform: uppercase;
+  padding: 20px 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.container .wraper nav ul li:hover, .container .wraper nav ul li.active {
+  opacity: .6;
+}
+.container .wraper nav ul li span {
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  width: 20px;
+  margin: 0 5px;
+  height: 1px;
+  background: white;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper nav ul li span {
+    width: 120px;
+  }
+}
+.container .wraper nav .nav-btn {
+  cursor: pointer;
+  background-image: url(../img/golem_letter.png);
+  background-position: -52px 0;
+  background-repeat: no-repeat;
+  width: 52px;
+  height: 112px;
+  position: absolute;
+  top: 20px;
+  right: 71px;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper nav .nav-btn {
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container .wraper nav .nav-btn {
+    right: 91px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .container .wraper nav .nav-btn {
+    right: 141px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  .container .wraper nav .nav-btn {
+    right: 241px;
+  }
+}
+.container .wraper .page {
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid #b66f6f;
+  border-right: 1px solid #b66f6f;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper .page {
+    padding: 50px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .container .wraper .page {
+    padding: 100px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  .container .wraper .page {
+    padding: 100px 200px;
+  }
+}
+.container .wraper .page header {
+  color: #b66f6f;
+  font: 16px "Geomanist Regular";
+  text-transform: uppercase;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper .page header.with-web {
+    margin-top: 200px;
+    margin-bottom: 400px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .container .wraper .page header.with-web {
+    margin-top: 400px;
+    margin-bottom: 400px;
+  }
+}
+.container .wraper .page header .nav-btn {
+  cursor: pointer;
+  background-image: url(../img/golem_letter.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  width: 52px;
+  height: 112px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper .page header .nav-btn {
+    display: block;
+  }
+}
+.container .wraper .page header span {
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  width: 20px;
+  margin: 0 5px;
+  height: 1px;
+  background: #b66f6f;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper .page header span {
+    width: 120px;
+  }
+}
+.container .wraper .page .web {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+@media screen and (min-width: 768px) {
+  .container .wraper .page .web {
+    display: block;
+  }
+}
+.container .wraper .page section {
+  overflow: hidden;
+  *zoom: 1;
+}
+@media screen and (min-width: 1120px) {
+  .container .wraper .page section {
+    margin-bottom: 50px;
+  }
+}
+.container .wraper .page section h1 {
+  color: #b66f6f;
+  font: 24px 'Geomanist Extra Light';
+  letter-spacing: 0.2em;
+  width: 90%;
+  text-transform: uppercase;
+  margin: 50px 0 50px 0;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper .page section h1 {
+    font-size: 59px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container .wraper .page section h1 {
+    margin: 125px 0;
+    width: 930px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .container .wraper .page section .row {
+    overflow: hidden;
+    *zoom: 1;
+    margin-bottom: 75px;
+  }
+  .container .wraper .page section.col-3 p {
+    width: 33.33333333333333%;
+  }
+  .container .wraper .page section.col-2 p {
+    width: 50%;
+  }
+}
+.container .wraper .page section p {
+  color: #b66f6f;
+  width: 100%;
+  float: none;
+  font: 14px 'Geomanist Light';
+  margin-bottom: 40px;
+  letter-spacing: 0.05em;
+}
+.container .wraper .page section p span {
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 20px;
+  letter-spacing: 0.2em;
+}
+.container .wraper .page section p img, .container .wraper .page section p svg {
+  display: block;
+  margin-top: 15px;
+  border: 0;
+}
+.container .wraper .page section p svg path {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  fill: #000;
+}
+.container .wraper .page section p a:hover svg path {
+  fill: #b66f6f;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper .page section p {
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .container .wraper .page section p {
+    width: 315px;
+    margin-bottom: 0;
+    padding-right: 30px;
+    float: left;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .container .wraper .page section p {
+    padding-left: 60px;
+  }
+}
+.container .wraper .page section p:last-child {
+  margin-right: 0;
+}
+.container .wraper .page .video {
+  position: relative;
+  z-index: 200;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper .page .video {
+    border: 1px solid #b66f6f;
+    padding: 40px;
+  }
+}
+.container .wraper .page .video .inside {
+  display: block;
+  height: 0;
+  padding-top: 10px;
+  padding-bottom: 55.5%;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.container .wraper .page .video .inside iframe {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.container .wraper #home .imapp-btn, .container .wraper #contact .imapp-btn {
+  position: absolute;
+  right: 0;
+  padding: 28px;
+  border-left: 1px solid #b66f6f;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container .wraper #home .imapp-btn:hover, .container .wraper #contact .imapp-btn:hover {
+  background: #b66f6f;
+}
+.container .wraper #home .imapp-btn {
+  top: 0;
+  border-bottom: 1px solid #b66f6f;
+}
+.container .wraper #contact ul {
+  margin: 0;
+  padding: 0;
+}
+.container .wraper #contact ul li {
+  list-style: none;
+  color: #b66f6f;
+  font: 36px 'Geomanist Extra Light';
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+.container .wraper #contact ul li a {
+  color: #b66f6f;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container .wraper #contact ul li a svg path {
+  fill: #b66f6f;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container .wraper #contact ul li a:hover {
+  color: #757c97;
+}
+.container .wraper #contact ul li a:hover svg path {
+  fill: #757c97;
+}
+.container .wraper #contact .row {
+  margin-bottom: 0;
+}
+.container .wraper #contact .imapp-btn {
+  bottom: 0;
+  border-top: 1px solid #b66f6f;
+}
+.container .wraper #contact form {
+  *zoom: 1;
+  margin-bottom: 75px;
+}
+.container .wraper #contact form:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (min-width: 768px) {
+  .container .wraper #contact form {
+    border: 1px solid #b66f6f;
+    padding: 40px;
+  }
+}
+.container .wraper #contact form input {
+  float: left;
+  height: 60px;
+  font-size: 21px;
+}
+.container .wraper #contact form ::-webkit-input-placeholder {
+  color: #b66f6f;
+}
+.container .wraper #contact form :-moz-placeholder {
+  /* Firefox 18- */
+  color: #b66f6f;
+}
+.container .wraper #contact form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #b66f6f;
+}
+.container .wraper #contact form :-ms-input-placeholder {
+  color: #b66f6f;
+}
+.container .wraper #contact form input[type="email"] {
+  width: 80%;
+  border: 0;
+  background: #443841;
+  color: #b66f6f;
+  padding: 0 20px;
+}
+.container .wraper #contact form input[type="submit"] {
+  width: 20%;
+  border: 0;
+  background: #b66f6f;
+  color: white;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container .wraper #contact form input[type="submit"]:hover {
+  background: #757c97;
+}
+
+@media screen and (min-width: 1024px) {
+  #page2, #page5 {
+    margin-bottom: -300px;
+    overflow: visible !important;
+  }
+
+  #page3, #page6 {
+    padding-top: 400px;
+  }
+
+  #wraper3 nav, #wraper6 nav {
+    top: 580px;
+  }
+  #wraper3 .web, #wraper6 .web {
+    top: 350px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #page2, #page5 {
+    margin-bottom: -400px;
+    overflow: visible !important;
+  }
+
+  #page3, #page6 {
+    padding-top: 500px;
+  }
+
+  #wraper3 nav, #wraper6 nav {
+    top: 680px;
+  }
+  #wraper3 .web, #wraper6 .web {
+    top: 380px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  #page2, #page5 {
+    margin-bottom: -500px;
+    overflow: visible !important;
+  }
+
+  #page3, #page6 {
+    padding-top: 600px;
+  }
+
+  #wraper3 nav, #wraper6 nav {
+    top: 980px;
+  }
+  #wraper3 .web, #wraper6 .web {
+    top: 550px;
+  }
+}
