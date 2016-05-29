@@ -1,245 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="description" content="The Golem Project creates the first global market for idle computer power.">
-<meta name="keywords" content="Golem, P2P, Ethereum, worldwide supercomputer">
-<title>Golem project</title>
-<link rel="stylesheet" href="css/vendor.min.css">
-<link rel="stylesheet" href="css/main.min.css">
-<link rel="icon" type="image/png" href="favicon-32x32.png">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="The Golem Project creates the first global market for idle computer power.">
+    <meta name="keywords" content="Golem, P2P, Ethereum, worldwide supercomputer">
+    <title>Golem project</title>
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/additional.css">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-69091803-2', 'auto');
-  ga('send', 'pageview');
-</script>
+        ga('create', 'UA-69091803-2', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
-<body>
+<body class="home">
 <div class="container">
-  <div class="wraper dark" id="wraper1">
-    <div class="page" id="home">
-      <div class="inside">
-        <canvas id="stage"></canvas>
-        <div class="imapp-btn"> BY <a href="http://imapp.pl/" target="_blank"><span class="imapp"></span></a></div>
-        <div class="hamburger"> <span>toggle menu</span></div>
-        
-        <nav>
-          <div class="hamburger is-active"> <span>toggle menu</span></div>
-          <div class="pages">
-            <ul>
-              <li data-page="2"> 01<span></span>idea</li>
-              <li data-page="3"> 02<span></span>overview</li>
-              <li data-page="4"> 03<span></span>use cases</li>
-              <li data-page="5"> 04<span></span>technology</li>
-              <li data-page="6"> 05<span></span>features</li>
-              <li data-page="7"> 06<span></span>team</li>
-              <li data-page="8"> 07<span></span>contact golem</li>
-            </ul>
-          </div>
-        </nav>
-        
-        <div class="title"> <img src="img/golem.png">
-          <div class="text"> worldwide<br>
-            supercomputer</div>
-        </div>
-        <div class="explore"> <span>explore</span></div>
-      </div>
-    </div>
-  </div>
-  <div class="wraper white" id="wraper2">
-    <div class="page" id="page2">
-      <div class="inside">
-        <header> 01<span></span>idea </header>
-        <section class="col-3">
-          <h1> The Golem Project is the new way the Internet will work.</h1>
-          <div class="row">
-            <p> Our aim is to use any personal computer to do jobs that are done today by servers, computing farms or supercomputers.</p>
-            <p> The ultimate Golem Net will be the truly decentralized Web, where the combined power of user's machines will deliver all the hardware resources they would ever need.</p>
-            <p> The Golem Project is a work in progress.</p>
-          </div>
-        </section>
-        <div class="video">
-          <div class="inside">
-            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/_Q888b0VRx8?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="wraper dark with-web" id="wraper3">
-    <div class="page" id="page3">
-      <div class="inside"> <img src="img/golem1.svg" class="web">
-        <header class="with-web"> 02<span></span>Overview </header>
-        <section class="col-3">
-          <h1> worldwide supercomputer</h1>
-          <div class="row">
-            <p> Golem Net is a P2P network created by the computers (nodes) running Golem App.</p>
-            <p> Any user may use Golem App to send any computing task to the network.</p>
-            <p> Any user may use Golem App to lend a machine to others.</p>
-          </div>
-          <div class="row">
-            <p> An Ethereum-based payment system is used to clear the transactions between senders and receivers.</p>
-          </div>
-        </section>
-      </div>
-    </div>
-  </div>
-  <div class="wraper white with-web" id="wraper4">
-    <div class="page" id="page4">
-      <div class="inside"> <img src="img/golem2.svg" class="web">
-        <header class="with-web"> 03<span></span>use cases </header>
-        <section class="col-3">
-          <h1> GOLEM can be used for eny task that can be distributed.<br>
-            <br>
-            use cases include the computation needed in technology, business, stock market, science and art.</h1>
-          <div class="row">
-            <p> <span>Computer graphics</span> Photorealistic rendering<br>
-              Internet workflow - encoding files to DCP</p>
-            <p> <span>Business</span> Stock market simulations<br>
-              Big data analysis</p>
-            <p> <span>Machine learning</span> Image recognition<br>
-              Natural language processing</p>
-          </div>
-          <div class="row">
-            <p> <span>Cryptography</span> Cryptocurrency mining<br>
-              Integer factorization</p>
-            <p> <span>Computational biology</span> DNA analysis<br>
-              Protein folding simulation</p>
-            <p> <span>Computational physics</span> Particles simulation<br>
-              Search for extraterrestrial intelligence</p>
-          </div>
-          <div class="row">
-            <p> <span>Web 3.0</span> Distributed disk<br>
-              Distributed media server<br>
-              Distributed compiler...</p>
-          </div>
-        </section>
-      </div>
-    </div>
-  </div>
-  <div class="wraper grey font-dark" id="wraper5">
-    <div class="page" id="page5">
-      <div class="inside" style="padding-top: 1px;"> <img src="img/golem3.svg" class="web">
-        <header class="with-web"> 04<span></span>technology </header>
-        <section class="col-3">
-          <h1> golem will be decentralized, scalable, universal, secure and easily integrated with other solutions.</h1>
-          <div class="row">
-            <p> <span>decentralized</span> no single point of failure, no trusted authorities - even for the payment system</p>
-            <p> <span>scalable</span> will be able to connect millions of workstation, thanks to a P2P architecture</p>
-            <p> <span>secure</span> all computations will take place in virtual machines and will be fully isolated from the host system</p>
-          </div>
-          <div class="row">
-            <p> <span>easily integrated with other solutions</span> the Golem standard library and support for programming languages will allow developers to integrate Golem with their applications</p>
-            <p> <span>universal</span> can be used for any type of task that can be distributed, users will have a set of tools to define and add new tasks to the network</p>
-          </div>
-        </section>
-        <div class="video">
-          <div class="inside">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wBNRKIIuTwo?rel=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="wraper dark with-web" id="wraper6">
-    <div class="page" id="page6">
-      <div class="inside"> <img src="img/golem4.svg" class="web">
-        <header class="with-web"> 05<span></span>features </header>
-        <section class="col-2">
-          <h1> golem’s features include a p2p network, a trading system, task definition and computation, and a reputation system.</h1>
-          <div class="row">
-            <p> <span>P2P Network</span> A peer-to-peer architecture is an obvious choice for achieving decentralization and scalability. Golem will support peer discovery and communication with a specific node. Every connection will be encrypted and signed to guarantee security and authentication. Kademlia-inspired protocols will be used with a set of network techniques to go through NATs.</p>
-            <p> <span>Trading system and payments</span> Golem will include a multi-agent trading system for matching users requesting computational power with its providers. It will also provide an efficient probabilistic micropayment scheme, implemented using Ethereum, for remunerating users that share their computational resources.
-                See our nanopayments <a style="text-decoration: none; color: white" href="/doc/GolemNanopayments.pdf">white paper</a> for more details.
-            </p>
-          </div>
-          <div class="row">
-            <p> <span>Task definition</span> Users will define computational tasks easily using Golem's Task Definition Framework and libraries for high-level programming languages. Golem will then automatically distribute each task over the network of computing nodes.</p>
-            <p> <span>Task computation</span> Due to security reasons, task computation in Golem nodes will take place inside virtual machines and will be isolated from the host environment. Owners of the host machines will be able to decide how many CPU cores, and how much RAM and disk space they would like to share with other Golem users.</p>
-          </div>
-          <div class="row">
-            <p> <span>Reputation system</span> Golem will implement a reputation system to enforce good behavior of nodes in a decentralized environment, without relying on any supervising institution. This will allow nodes to attribute a reputation rank to their peers. A node's rank will be lowered for inappropriate behavior and increased after successful computation and will allow others to decide whether the node can be trusted.</p>
-          </div>
-        </section>
-      </div>
-    </div>
-  </div>
-  <div class="wraper white font-dark" id="wraper7">
-    <div class="page" id="page7">
-      <div class="inside">
-        <header> 06<span></span>team </header>
-        <section class="col-3">
-          <h1> Our team</h1>
-          <div class="row">
-            <p> Paweł Bylica <a href="https://www.linkedin.com/in/pawelbylica"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-              <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
-              </svg> </a></p>
-            <p> Piotr Janiuk <a href="http://pl.linkedin.com/in/viggith"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-              <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
-              </svg> </a></p>
-			<p> Marek Franciszkiewicz</p>  
-		</div>
-		<div class="row">
-            <p> Andrzej Regulski <a href="https://www.linkedin.com/pub/andrzej-regulski/18/8a8/529"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-              <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
-              </svg> </a></p>
-            <p> Aleksandra Skrzypczak <a href="https://www.linkedin.com/pub/aleksandra-skrzypczak/8a/16a/570"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-              <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
-              </svg> </a></p>
-		      <p> Magdalena Stasiewicz <a href="https://www.linkedin.com/in/magdalena-stasiewicz-998180108"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-	              <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
-              		</svg></a></p>
-		</div>
-		<div class="row">
-            <p> Radosław Zagórowicz <a href="https://www.linkedin.com/pub/radoslaw-zagorowicz/16/421/410"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-              <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
-              </svg> </a></p>
-            <p> Julian Zawistowski <a href="https://www.linkedin.com/pub/julian-zawistowski/0/478/352"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-              <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
-              </svg> </a></p>
-            <p> Artur Zawłocki <a href="http://pl.linkedin.com/in/azawlocki/pl"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-              <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
-              </svg> </a></p>
-          </div>
-        </section>
-      </div>
-    </div>
-  </div>
-  <div class="wraper dark" id="wraper8">
-    <div class="page" id="contact">
-      <div class="inside">
-        <header> 07<span></span>Contact golem </header>
-        <section class="col-3">
-          <h1> Sign up for the Golem newsletter:</h1>
-          <form method="post" action="https://app.freshmail.com//pl/actions/subscribe/">
-            <input type="hidden" name="subscribers_list_hash" value="ye91v9efwt">
-            <input type="email" placeholder="Your email address" id="freshmail_email" name="freshmail_email">
-            <input type="submit" value="Send">
-          </form>
-          <div class="row">
-              <ul>
-                <li><a href="https://blog.golemproject.net/">Golem blog</a></li>
-<!--                <li><a href="https://groups.google.com/forum/#!forum/golem">Golem mailing list</a></li> -->
-                <li><a href="mailto:contact@golemproject.net">contact@golemproject.net</a></li>
-                <li><a href="https://twitter.com/golemproject">
-                  <svg id="svg2" height="30" width="38" version="1.1" viewBox="0 0 182.66667 150.66667">
-                  <clipPath id="clipPath20" clipPathUnits="userSpaceOnUse"><path id="path18" d="m0 10.012h1366.9v1110.9h-1366.9z"/></clipPath><g id="g10" transform="matrix(1.3333 0 0 -1.3333 0 150.67)"><g id="g12" transform="scale(.1)"><g id="g14"><g id="g16" clip-path="url(#clipPath20)"><path id="path22" d="m1366.9 989.39c-50.27-22.309-104.33-37.387-161.05-44.18 57.89 34.723 102.34 89.679 123.28 155.15-54.18-32.15-114.18-55.47-178.09-68.04-51.13 54.49-124.02 88.55-204.68 88.55-154.89 0-280.43-125.55-280.43-280.43 0-21.988 2.457-43.398 7.258-63.91-233.08 11.68-439.72 123.36-578.04 293.01-24.141-41.4-37.969-89.567-37.969-140.97 0-97.308 49.489-183.13 124.76-233.44-45.969 1.437-89.218 14.058-127.03 35.078-0.043-1.18-0.043-2.348-0.043-3.52 0-135.9 96.68-249.22 224.96-275-23.512-6.41-48.281-9.8-73.86-9.8-18.089 0-35.628 1.711-52.781 5 35.711-111.41 139.26-192.5 262-194.77-96.058-75.23-216.96-120.04-348.36-120.04-22.621 0-44.961 1.332-66.918 3.91 124.16-79.568 271.55-125.98 429.94-125.98 515.82 0 797.86 427.31 797.86 797.93 0 12.153-0.28 24.223-0.79 36.25 54.77 39.571 102.31 88.95 139.93 145.2" /></g></g></g></g></svg>
-                  @golemproject
-                </a></li>
-				<li><a href="http://golemproject.org:3000/"> Join Golem Slack </a></li>
-              </ul>
+    <div class="wraper dark" id="wraper1">
+        <div class="page" id="home">
+            <div class="inside">
+                <canvas id="stage"></canvas>
+                <div class="imapp-btn"> BY <a href="http://imapp.pl/" target="_blank"><span class="imapp"></span></a></div>
+                <div class="hamburger"> <span>toggle menu</span></div>
+                <nav>
+                    <div class="hamburger is-active"> <span>toggle menu</span></div>
+                    <div class="pages">
+                        <ul>
+                            <li data-page="2"> 01<span></span>idea</li>
+                            <li data-page="3"> 02<span></span>overview</li>
+                            <li data-page="4"> 03<span></span>use cases</li>
+                            <li data-page="5"> 04<span></span>technology</li>
+                            <li data-page="6"> 05<span></span>features</li>
+                            <li data-page="7"> 06<span></span>faq</li>
+                            <li data-page="8"> 07<span></span>team</li>
+                            <li data-page="9"> 08<span></span>contact golem</li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="title"> <img src="img/golem.png">
+                    <div class="text"> worldwide<br>
+                        supercomputer</div>
+                </div>
+                <div class="explore"> <span>explore</span></div>
             </div>
-        </section>
-        <a href="http://imapp.pl/" target="_blank" class="imapp-btn">
-        </a></div>
-        <div class="imapp"></div>
+        </div>
     </div>
-  </div>
+    <div class="wraper white" id="wraper2">
+        <div class="page" id="page2">
+            <div class="inside">
+                <header> 01<span></span>idea </header>
+                <section class="col-3">
+                    <h1> The Golem Project is the new way the Internet will work.</h1>
+                    <div class="row">
+                        <p> Our aim is to use any personal computer to do jobs that are done today by servers, computing farms or supercomputers.</p>
+                        <p> The ultimate Golem Net will be the truly decentralized Web, where the combined power of user's machines will deliver all the hardware resources they would ever need.</p>
+                        <p> The Golem Project is a work in progress.</p>
+                    </div>
+                </section>
+                <div class="video">
+                    <div class="inside">
+                        <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/_Q888b0VRx8?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wraper dark with-web" id="wraper3">
+        <div class="page" id="page3">
+            <div class="inside"> <img src="img/golem1.svg" class="web">
+                <header class="with-web"> 02<span></span>Overview </header>
+                <section class="col-3">
+                    <h1> worldwide supercomputer</h1>
+                    <div class="row">
+                        <p> Golem Net is a P2P network created by the computers (nodes) running Golem App.</p>
+                        <p> Any user may use Golem App to send any computing task to the network.</p>
+                        <p> Any user may use Golem App to lend a machine to others.</p>
+                    </div>
+                    <div class="row">
+                        <p> An Ethereum based payment system is used to clear the transactions between senders and receivers.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="wraper white with-web" id="wraper4">
+        <div class="page" id="page4">
+            <div class="inside"> <img src="img/golem2.svg" class="web">
+                <header class="with-web"> 03<span></span>use cases </header>
+                <section class="col-3">
+                    <h1>GOLEM can be used for any task that can be distributed.<br><br>use cases include the computation needed in technology, business, stock market, science and art.</h1>
+                    <div class="row">
+                        <p>
+                            <span>Computer graphics</span>
+                            Photorealistic rendering<br>
+                            Internet workflow - encoding files to DCP
+                        </p>
+                        <p>
+                            <span>Business</span>
+                            Stock market simulations<br>
+                            Big data analysis
+                        </p>
+                        <p>
+                            <span>Machine learning</span>
+                            Image recognition<br>
+                            Natural language processing
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <span>Cryptography</span>
+                            Cryptocurrency mining<br>
+                            Integer factorization
+                        </p>
+                        <p>
+                            <span>Computational biology</span>
+                            DNA analysis<br>
+                            Protein folding simulation
+                        </p>
+                        <p>
+                            <span>Computational physics</span>
+                            Particles simulation<br>
+                            Search for extraterrestrial intelligence
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <span>Web 3.0</span>
+                            Distributed disk<br>
+                            Distributed media server<br>
+                            Distributed compiler...
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="wraper grey font-dark" id="wraper5">
+        <div class="page" id="page5">
+            <div class="inside" style="padding-top: 1px;"> <img src="img/golem3.svg" class="web">
+                <header class="with-web"> 04<span></span>technology </header>
+                <section class="col-3">
+                    <h1> golem will be decentralized, scalable, universal, secure and easily integrated with other solutions.</h1>
+                    <div class="row">
+                        <p>
+                            <span>decentralized</span>
+                            no single point of failure, no trusted authorities - even for the payment system
+                        </p>
+                        <p>
+                            <span>scalable</span>
+                            will be able to connect millions of workstation, thanks to a P2P architecture
+                        </p>
+                        <p>
+                            <span>secure</span>
+                            all computations will take place in virtual machines and will be fully isolated from the host system
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <span>easily integrated with other solutions</span>
+                            the Golem standard library and support for programming languages will allow developers to integrate Golem with their applications
+                        </p>
+                        <p>
+                            <span>universal</span>
+                            can be used for any type of task that can be distributed, users will have a set of tools to define and add new tasks to the network
+                        </p>
+                    </div>
+                </section>
+                <div class="video">
+                    <div class="inside">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wBNRKIIuTwo?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wraper dark with-web" id="wraper6">
+        <div class="page" id="page6">
+            <div class="inside"> <img src="img/golem4.svg" class="web">
+                <header class="with-web"> 05<span></span>features </header>
+                <section class="col-2">
+                    <h1>golem’s features include a p2p network, a trading system, task definition and computation, and a reputation system.</h1>
+                    <div class="row">
+                        <p>
+                            <span>P2P Network</span>
+                            A peer-to-peer architecture is an obvious choice for achieving decentralization and scalability. Golem will support peer discovery and communication with a specific node. Every connection will be encrypted and signed to guarantee security and authentication. Kademlia-inspired protocols will be used with a set of network techniques to go through NATs.</p>
+                        <p>
+                            <span>Trading system and payments</span>
+                            Golem will include a multi-agent trading system for matching users requesting computational power with its providers. It will also provide an efficient probabilistic micropayment scheme, implemented using Ethereum, for remunerating users that share their computational resources.
+                            See our nanopayments <a style="text-decoration: none; color: white" href="/doc/GolemNanopayments.pdf">white paper</a> for more details.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p> <span>Task definition</span> Users will define computational tasks easily using Golem's Task Definition Framework and libraries for high-level programming languages. Golem will then automatically distribute each task over the network of computing nodes.</p>
+                        <p> <span>Task computation</span> Due to security reasons, task computation in Golem nodes will take place inside virtual machines and will be isolated from the host environment. Owners of the host machines will be able to decide how many CPU cores, and how much RAM and disk space they would like to share with other Golem users.</p>
+                    </div>
+                    <div class="row">
+                        <p> <span>Reputation system</span> Golem will implement a reputation system to enforce good behavior of nodes in a decentralized environment, without relying on any supervising institution. This will allow nodes to attribute a reputation rank to their peers. A node's rank will be lowered for inappropriate behavior and increased after successful computation and will allow others to decide whether the node can be trusted.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="wraper white with-web" id="wraper7">
+        <div class="page">
+            <div class="inside"> <img src="img/golem2.svg" class="web">
+                <header class="with-web"> 06<span></span>faq</header>
+                <section class="col-3">
+                    <h1>YOU ASK,<br>WE ANSWER.</h1>
+                    <div class="row">
+                        <p>
+                            <a href="faq.html" class="line-after">GO TO FAQ</a>
+                        </p>
+
+                    </div>
+
+                    <div class="row">
+                        <p><a href="#" target="_blank" class="line-after">GITHUB</a></p>
+                        <p><a href="https://twitter.com/golemproject" target="_blank" class="line-after">TWITTER</a></p>
+                        <p><a href="http://golemproject.org:3000/" target="_blank" class="line-after">SLACK</a></p>
+                    </div>
+
+                    <div class="row">
+                        <p><a href="https://www.reddit.com/r/GolemProject/" target="_blank" class="line-after">REDDIT</a></p>
+                        <p><a href="#" target="_blank" class="line-after">DAOIST</a></p>
+                    </div>
+                </section>
+                <div class="slides">
+                    <a href="slides/index.html"><img src="img/slides.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wraper grey font-dark" id="wraper8">
+        <div class="page" id="page8">
+            <div class="inside">
+                <header> 07<span></span>team </header>
+                <section class="col-3">
+                    <h1> Our team</h1>
+                    <div class="row">
+                        <p>
+                            <img src="img/photos/julian_zawistowski.jpg" alt="">
+                            Julian Zawistowski
+                            <a href="https://www.linkedin.com/pub/julian-zawistowski/0/478/352">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                    <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
+                                </svg>
+                            </a>
+                        </p>
+
+                        <p>
+                            <img src="img/photos/janiuk.jpg" alt="">
+                            Piotr ‘Viggith’ Janiuk
+                            <a href="http://pl.linkedin.com/in/viggith">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                    <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
+                                </svg>
+                            </a>
+                        </p>
+
+                        <p>
+                            <img src="img/photos/andrzej_regulski.jpg" alt="">
+                            Andrzej Regulski
+                            <a href="https://www.linkedin.com/pub/andrzej-regulski/18/8a8/529">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                    <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
+                                </svg>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <img src="img/photos/aleksandra_skrzypczak.jpg" alt="">
+                            Aleksandra Skrzypczak
+                            <a href="https://www.linkedin.com/pub/aleksandra-skrzypczak/8a/16a/570">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                    <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
+                                </svg>
+                            </a>
+                        </p>
+                        <p>
+                            <img src="img/photos/pawel_bylica.jpg" alt="">
+                            Paweł ‘chfast’ Bylica
+                            <a href="https://www.linkedin.com/in/pawelbylica">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                    <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
+                                </svg>
+                            </a>
+                        </p>
+
+                        <p>
+                            <img src="img/photos/marek_franciszkiewicz.jpg" alt="">
+                            Marek Franciszkiewicz
+                        </p>
+
+                    </div>
+                    <div class="row">
+                        <p>
+                            <img src="img/photos/adam_banasiak.jpg" alt="">
+                            Adam Banasiak
+                        </p>
+
+                        <p>
+                            <img src="img/photos/magdalena_stasiewicz.jpg" alt=""> Magdalena Stasiewicz
+                            <a href="https://www.linkedin.com/in/magdalena-stasiewicz-998180108">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                    <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
+                                </svg>
+                            </a>
+                        </p>
+
+                        <p>
+                            <img src="img/photos/radosław_zagorowicz.jpg" alt="">
+                            Radosław Zagórowicz
+                            <a href="https://www.linkedin.com/pub/radoslaw-zagorowicz/16/421/410">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                    <path d="M78.77,210.052h78.769V433.23H78.77V210.052z M343.18,202.436c22.18,0.135,50.551,11.026,67.872,28.622 c17.974,20.083,22.179,42.788,22.179,70.892V433.23h-78.769V311.27c0-22.32-9.052-49.507-38.59-50.41 c-17.32,0.275-28.487,10.243-36.77,27.038c-2.359,5.513-1.833,11.692-1.833,17.859l-1.577,127.474h-78.77V210.052h78.77 l1.577,29.141c5.371-8.923,12.858-17.314,22.192-24.007C312.052,206.115,326.77,202.686,343.18,202.436z M118.154,103.058 c20.218,0.275,40.301,16.147,41.089,40.302c0.526,21.545-18.243,40.308-41.615,40.308h-0.525c-20.083,0-39.775-16.41-40.698-40.308 C76.802,122.09,94.654,103.596,118.154,103.058z M0,0v512h512V0H0z"/>
+                                </svg>
+                            </a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="wraper dark" id="wraper9">
+        <div class="page" id="contact">
+            <div class="inside">
+                <header> 07<span></span>Contact golem </header>
+                <section class="col-3">
+                    <h1> Sign up for the Golem newsletter:</h1>
+                    <form method="post" action="https://app.freshmail.com//pl/actions/subscribe/">
+                        <input type="hidden" name="subscribers_list_hash" value="ye91v9efwt">
+                        <input type="email" placeholder="Your email address" id="freshmail_email" name="freshmail_email">
+                        <input type="submit" value="Send">
+                    </form>
+                    <div class="row">
+                        <ul>
+                            <li><a href="https://blog.golemproject.net/">Golem blog</a></li>
+                            <!--                <li><a href="https://groups.google.com/forum/#!forum/golem">Golem mailing list</a></li> -->
+                            <li><a href="mailto:contact@golemproject.net">contact@golemproject.net</a></li>
+                            <li><a href="https://twitter.com/golemproject">
+                                <svg id="svg2" height="30" width="38" version="1.1" viewBox="0 0 182.66667 150.66667">
+                                    <clipPath id="clipPath20" clipPathUnits="userSpaceOnUse"><path id="path18" d="m0 10.012h1366.9v1110.9h-1366.9z"/></clipPath><g id="g10" transform="matrix(1.3333 0 0 -1.3333 0 150.67)"><g id="g12" transform="scale(.1)"><g id="g14"><g id="g16" clip-path="url(#clipPath20)"><path id="path22" d="m1366.9 989.39c-50.27-22.309-104.33-37.387-161.05-44.18 57.89 34.723 102.34 89.679 123.28 155.15-54.18-32.15-114.18-55.47-178.09-68.04-51.13 54.49-124.02 88.55-204.68 88.55-154.89 0-280.43-125.55-280.43-280.43 0-21.988 2.457-43.398 7.258-63.91-233.08 11.68-439.72 123.36-578.04 293.01-24.141-41.4-37.969-89.567-37.969-140.97 0-97.308 49.489-183.13 124.76-233.44-45.969 1.437-89.218 14.058-127.03 35.078-0.043-1.18-0.043-2.348-0.043-3.52 0-135.9 96.68-249.22 224.96-275-23.512-6.41-48.281-9.8-73.86-9.8-18.089 0-35.628 1.711-52.781 5 35.711-111.41 139.26-192.5 262-194.77-96.058-75.23-216.96-120.04-348.36-120.04-22.621 0-44.961 1.332-66.918 3.91 124.16-79.568 271.55-125.98 429.94-125.98 515.82 0 797.86 427.31 797.86 797.93 0 12.153-0.28 24.223-0.79 36.25 54.77 39.571 102.31 88.95 139.93 145.2" /></g></g></g></g></svg>
+                                @golemproject
+                            </a></li>
+                            <li><a href="http://golemproject.org:3000/"> Join Golem Slack </a></li>
+                        </ul>
+                    </div>
+                </section>
+                <a href="http://imapp.pl/" target="_blank" class="imapp-btn">
+                    <div class="imapp"></div>
+                </a></div>
+
+        </div>
+    </div>
 </div>
 <script src="js/vendor.min.js"></script> <script src="js/main.min.js"></script>
 </body>
