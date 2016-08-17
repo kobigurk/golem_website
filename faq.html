@@ -68,14 +68,14 @@
               <li>
                 What is the state of the project and the way ahead?
                 <span>
-                    The alpha version is scheduled for July 2016, with the code available for review since 3rd June 2016. The alpha version (codename Brass Golem) will be focused on CGI rendering in Blender (blender.org) and is mainly proof of concept, although we expect it will be useful for blender users and once we move to release version will have a group of dedicated users.
+                    The alpha version was launched in August 2016, with the code available for review in the next few days. The alpha version (codename Brass Golem) will be focused on CGI rendering in Blender (blender.org) and is mainly proof of concept, although we expect it will be useful for blender users and once we move to release version will have a group of dedicated users.
                     <br><br>
-                    In our proposal to the DAO we provide the following plan:
+                    We provide the following plan:
                     <ul>
                       <li>Brass Golem <br>
                           <cite>...these are created to fulfill one goal, set at the time of their creation, and wait with absolute patience until activated to perform this task.</cite>
                           <br><br>
-                          Brass Golem is where we are at the moment (in alpha test now, we plan to open the repository on 3 June 2016). The current version of Golem is only focused on rendering in Blender and although it will be useful to CGI artists, we consider CGI rendering to be primarily a proof of concept and training ground. After a full cycle of tests, Brass Golem will be released in Autumn this year. Even though we do not expect that blender CGI rendering will create enough turnover to justify all the work we have put in the project, this will be the first decentralised computing power market and at the same time (most likely) the first thing you will be able to pay for with your Ethers (other than The DAO tokens). 
+                          Brass Golem is where we are at the moment (in alpha test now). The current version of Golem is only focused on rendering in Blender and although it will be useful to CGI artists, we consider CGI rendering to be primarily a proof of concept and training ground. After a full cycle of tests, Brass Golem will be released in Autumn this year. Even though we do not expect that blender CGI rendering will create enough turnover to justify all the work we have put in the project, this will be the first decentralised computing power market and at the same time (most likely) the first thing you will be able to pay for with your Ethers. 
                       </li>
                       <li>Clay Golem<br>
                           <cite>There is a chance (...) that a Clay Golem will be possessed by a chaotic evil spirit. If this happens control is lost and the Golem attacks the closest living creature.</cite>
@@ -90,7 +90,7 @@
                       <li>Iron Golem<br>
                           <cite>Iron Golems are made of iron and are among the strongest type of Golem. They never revoke the control of the wizard that created them.</cite>
                           <br><br>
-                          Iron Golem is what we want to deliver with the support of The DAO financing. Compared to Stone Golem, it will have much more features and an advanced task API and a task definition framework (with task definition UI/GUI). We also plan integrations with other projects within the Ethereum scope, like on-chain reputation systems or extensions of the transaction system to enhance its capacity and functionality (at the moment, Raiden seems to be a good fit for that).
+                          Iron Golem is what we want to deliver with the support of GNT financing. Compared to Stone Golem, it will have much more features and an advanced task API and a task definition framework (with task definition UI/GUI). We also plan integrations with other projects within the Ethereum scope, like on-chain reputation systems or extensions of the transaction system to enhance its capacity and functionality (at the moment, Raiden seems to be a good fit for that).
                       </li>
                     </ul>
                 </span>
@@ -98,7 +98,7 @@
               <li>
                 How Golem will help to build a new Internet of tomorrow?
                 <span>
-                    The Golem Network has a potential to become 'a computing element' of a truly decentralised web. Once it is possible to bulk-rent machines not only to compute specific task, but also to perform specific operations within a self-organising network, then the decentralised Internet will eventually emerge. Of course the Golem Network is only one of the puzzles. The decentralised web will need many other technologies - and they are emerging now - take all the work already done and continued within Ethereum (eg. ??Vp2p, Whisper or SWARM) or IPFS. You can easily imagine the Golem Network, integrated with IPFS, using ??Vp2p successor to power Babl microservices to host a solution like Inkpad. Such an advancement of Internet technology is possible and may happen very soon but only if we work on all pieces of the puzzles. And that is the ultimate reason why the Golem Project has a huge long-term potential.   
+                    The Golem Network has a potential to become 'a computing element' of a truly decentralised web. Once it is possible to bulk-rent machines not only to compute specific task, but also to perform specific operations within a self-organising network, then the decentralised Internet will eventually emerge. Of course the Golem Network is only one of the puzzles. The decentralised web will need many other technologies - and they are emerging now - take all the work already done and continued within Ethereum (eg. DEVp2p, Whisper or SWARM) or IPFS. You can easily imagine the Golem Network, integrated with IPFS, using DEVp2p successor to power Babl microservices to host a solution like Inkpad. Such an advancement of Internet technology is possible and may happen very soon but only if we work on all pieces of the puzzles. And that is the ultimate reason why the Golem Project has a huge long-term potential.   
                 </span>
               </li>
             </ul>
@@ -110,6 +110,7 @@
                 How Golem works?
                 <span>
                     Golem is a p2p network, ie. there is no central server and users are equally privileged. People who want to compute some tasks in the network and people who have computer power to rent broadcast their offers in the network. Golem auction algorithm match providers and requestors taking into account prices, reputation and machine performance. Resources, ie. files needed for computation are sent to providers machine. After computation provider's app sent back results to the requestor app. If result pass verification process, provider is paid. If someone tries to cheat, ie. send bad results or doesn't pay, he/she will lose reputation and won't be chosen again for computation.
+					Check our <a href="https://blog.golemproject.net/golem-architecture-bfd75faa8ecc">blog post</a> to learn more.
                 </span>
               </li>
               <li>
@@ -133,13 +134,14 @@
               <li>
                 How will the payments look like? Will user use their credit cards?
                 <span>
-                    Prices for computation unit in Golem system should be significantly lower than in alternative solutions, so payment system in Golem must support a large number of micropayments (or even nanopayments). Therefore, we uses Ethereum system as a payment platform. You can see payments contract in our repository (<a href="https://github.com/imapp-pl/ethereum-contracts">https://github.com/imapp-pl/ethereum-contracts</a>). Additionally, using decentralized payment system allows Golem to be fully decentralized and independent from external payments providers.
+                    Prices for computation unit in Golem system should be significantly lower than in alternative solutions, so payment system in Golem must support a large number of micropayments (or even nanopayments). Therefore, we uses Ethereum system as a payment platform. You can see payments contract in our <a href="https://github.com/imapp-pl/ethereum-contracts">repository</a>. Additionally, using decentralized payment system allows Golem to be fully decentralized and independent from external payments providers.
                 </span>
               </li>
               <li>
                 Aren't you afraid to use Ethereum? It's still an experiment rather than real currency.
                 <span>
-                  Ethereum has been working for a last few months currently in it's stable Homestead version and has been used by many investors. The DAO (one of the decentralized autonomous organizations) which is the highest funded crowdfunding projects in history collected $130 million with Ethereum contract.
+                  Ethereum has been working for a last few months currently in it's stable Homestead version and has been used by many investors. It's not only a breakthrough for the blockchain technology. It also creates a great environment and vibrant community for us, who are very much inside the new P2P Internet.
+				  Check our <a href="https://blog.golemproject.net/why-ethereum-b398df34df9b">blog post</a> to learn more.
                 </span>
               </li>
               <li>
@@ -151,7 +153,7 @@
               <li>
                 Are you using some external solutions / libraries?
                 <span>
-                    We're using Ethereum (<a href="https://ethereum.org/">https://ethereum.org/</a>) as a payment system, IPFS (<a href="https://ipfs.io/">https://ipfs.io/</a>) for resource distribution and Docker (https://www.docker.com/) containers as computational environments.
+                    We're using Ethereum (<a href="https://ethereum.org/">https://ethereum.org/</a>) as a payment system, IPFS (<a href="https://ipfs.io/">https://ipfs.io/</a>) for resource distribution and Docker (<a href="https://www.docker.com/">https://www.docker.com/</a>) containers as computational environments.
                 </span>
               </li>
               <li>
@@ -168,7 +170,9 @@
               <li>
                 What is the business case behind Golem?
                 <span>
-                  Golem is open source software is and will remain free to use. Requestors have to pay providers for the time of their machines. This payment goes from requestor to provider and Golem takes a fee for that to secure further development of the software. Default fee is 5 percent, it is voluntary and it is paid by requestor. In the future the fee level might be changed and/or made it mandatory.                </span>
+                  Golem is open source software is and will remain free to use. Requestors have to pay providers for the time of their machines. This payment goes from requestor to provider and Golem takes a fee for that to secure further development of the software. Default fee is 5 percent, it is voluntary and it is paid by requestor. In the future the fee level might be changed and/or made it mandatory.                
+				  Check our <a href="https://blog.golemproject.net/golem-economics-101-8336bd63c6d4"> blog post</a> to learn more.
+				</span>  
               </li>
               <li>
                 What are use cases for Golem?
@@ -176,6 +180,7 @@
                     The first and very illustrative use case of Golem is CGI rendering. Other technically similar to implement use cases are scientific, engineering, statistical and financial tasks which need extensive computing and are (technically) feasible to distribute. Another possible early application of Golem are cryptocurrency mining pools. We are not going to explore and develop all possible use cases, but we will rather focus on delivering task API and task definition framework to give developers ability to integrate any software with the Golem Network.
                     <br>
                     Many use cases will need proprietary software, either existing or design specially for Golem. To facilitate the use of both open and proprietary software, we will introduce Golem Shop to enable any requestor to use Golem-ready software. If the software is proprietary, then requestor will be able to use it in a software-as-a-service model. This way Golem will act not only as a market for computing power, but also as a distribution channel for software creators.  
+					Check our <a href="https://blog.golemproject.net/what-can-golem-do-for-you-503b2449767a"> blog post</a> to learn more.
                 </span>
               </li>
               <li>
@@ -189,6 +194,7 @@
                         <li>barriers to entry and exit are very low.</li>
                    </ul>
                    And on the market with perfect competition the prices are as low as they can be to have producers (providers) still on the market - which means that Golem Network will create situation very different to the today’s internet infrastructure - with a few large providers and a market close to the monopolistic competition.
+				   Check our <a href="https://blog.golemproject.net/why-should-render-farms-be-afraid-of-golem-3dd1b9e70f47"> blog post</a> to learn more.
                 </span>
               </li>
               <li>
@@ -252,7 +258,6 @@
             <div class="row">
               <ul>
                 <li><a href="https://blog.golemproject.net/">Golem blog</a></li>
-                <!--                <li><a href="https://groups.google.com/forum/#!forum/golem">Golem mailing list</a></li> -->
                 <li><a href="mailto:contact@golemproject.net">contact@golemproject.net</a></li>
                 <li><a href="https://twitter.com/golemproject">
                   <svg id="svg2" height="30" width="38" version="1.1" viewBox="0 0 182.66667 150.66667">
